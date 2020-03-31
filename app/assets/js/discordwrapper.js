@@ -6,14 +6,12 @@ const {Client} = require('discord-rpc')
 let client
 let activity
 
-exports.initRPC = function(genSettings, servSettings, initialDetails = 'Waiting for Client..'){
+exports.initRPC = function(genSettings, initialDetails = 'W Launcherze'){
     client = new Client({ transport: 'ipc' })
 
     activity = {
         details: initialDetails,
-        state: 'Server: ' + servSettings.shortId,
-        largeImageKey: servSettings.largeImageKey,
-        largeImageText: servSettings.largeImageText,
+        state: 'Server: ',
         smallImageKey: genSettings.smallImageKey,
         smallImageText: genSettings.smallImageText,
         startTimestamp: new Date().getTime(),

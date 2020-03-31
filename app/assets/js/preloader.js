@@ -7,6 +7,7 @@ const ConfigManager = require('./configmanager')
 const DistroManager = require('./distromanager')
 const LangLoader    = require('./langloader')
 const logger        = require('./loggerutil')('%c[Preloader]', 'color: #a02d2a; font-weight: bold')
+const DiscordWrapper          = require('./discordwrapper')
 
 logger.log('Loading..')
 
@@ -17,6 +18,12 @@ ConfigManager.load()
 LangLoader.loadLanguage('en_US')
 
 function onDistroLoad(data){
+    const distro = DistroManager.getDistribution()
+    if(distro.discord != null){
+        DiscordWrapper.initRPC(distro.discord)
+        hasRPC = true
+        
+    }
     if(data != null){
         
         // Resolve the selected server if its value has yet to be set.
