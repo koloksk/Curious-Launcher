@@ -13,7 +13,7 @@ exports.initRPC = function(genSettings, initialDetails = 'W Launcherze'){
         details: initialDetails,
         state: 'Server: ',
         smallImageKey: genSettings.smallImageKey,
-        smallImageText: genSettings.smallImageText,
+        smallImageText: "elo",
         startTimestamp: new Date().getTime(),
         instance: false
     }
