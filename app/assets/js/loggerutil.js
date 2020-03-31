@@ -21,9 +21,7 @@ class LoggerUtil {
         console.debug.apply(null, [this.prefix, this.style, ...arguments])
     }
 
-    error(){
-        console.error.apply(null, [this.prefix, this.style, ...arguments])
-    }
+    
 
 }
 

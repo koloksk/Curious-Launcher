@@ -11,11 +11,12 @@ exports.initRPC = function(genSettings, initialDetails = 'W Launcherze'){
 
     activity = {
         details: initialDetails,
-        state: 'Server: ',
-        smallImageKey: genSettings.smallImageKey,
-        smallImageText: "elo",
+        state: 'Nick: koloksk',
+        largeImageKey: 'logo_1_' ,
+        largeImageText: 'CuriousGame.pl',
         startTimestamp: new Date().getTime(),
         instance: false
+    
     }
 
     client.on('ready', () => {
