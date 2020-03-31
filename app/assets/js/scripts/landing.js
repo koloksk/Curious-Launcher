@@ -338,7 +338,7 @@ function asyncSystemScan(mcVersion, launchAfter = true){
                         //$('#overlayDismiss').toggle(false)
                         setOverlayContent(
                             'Java is Required<br>to Launch',
-                            'A valid x64 installation of Java 8 is required to launch.<br><br>Please refer to our <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java Management Guide</a> for instructions on how to manually install Java.',
+                            'A valid x64 installation of Java 8 is required to launch.<br><br>Please refer to our <a href="https://github.com/koloksk/Curious-Launcher">Java Management Guide</a> for instructions on how to manually install Java.',
                             'I Understand',
                             'Go Back'
                         )
