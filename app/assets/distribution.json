@@ -20,7 +20,7 @@
             "minecraftVersion": "1.12.2",
             "discord": {
                 "shortId": "Production",
-                "largeImageText": "WesterosCraft Production Server",
+                "largeImageText": "CuriousGame 1.15.2",
                 "largeImageKey": "server-prod"
             },
             "mainServer": true,
