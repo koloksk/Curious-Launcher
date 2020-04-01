@@ -13,11 +13,11 @@
         {
             "id": "CuriousGame-1.15.2",
             "name": "CuriousGame 1.15.2",
-            "description": "Main WesterosCraft server. Connect to enter the Realm.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
-            "version": "3.9.4",
+            "description": "Główny serwer SkyGuilds",
+            "icon": "http://51.75.46.46/assets/img/logo.png",
+            "version": "1.0.0",
             "address": "mc.curiousgame.pl",
-            "minecraftVersion": "1.12.2",
+            "minecraftVersion": "1.15.2",
             "discord": {
                 "shortId": "Production",
                 "largeImageText": "CuriousGame 1.15.2",

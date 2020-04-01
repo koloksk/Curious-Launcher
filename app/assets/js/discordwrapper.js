@@ -12,6 +12,8 @@ exports.initRPC = function(genSettings, initialDetails = 'W Launcherze'){
     activity = {
         details: initialDetails,
         state: 'Nick: koloksk',
+        smallImageKey: "javascript-512",
+        smallImageText: "Podczas tworzenia",
         largeImageKey: 'logo_1_' ,
         largeImageText: 'CuriousGame.pl',
         startTimestamp: new Date().getTime(),
