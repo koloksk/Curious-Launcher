@@ -11,13 +11,13 @@
     "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
     "servers": [
         {
-            "id": "WesterosCraft-1.11.2",
+            "id": "WesterosCraft-15.2",
             "name": "WesterosCraft Production Server",
             "description": "Main WesterosCraft server. Connect to enter the Realm.",
             "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
             "version": "3.9.4",
             "address": "mc.westeroscraft.com",
-            "minecraftVersion": "1.11.2",
+            "minecraftVersion": "1.15.2",
             "discord": {
                 "shortId": "Production",
                 "largeImageText": "WesterosCraft Production Server",
@@ -27,7 +27,7 @@
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
+                    "id": "net.minecraftforge:forge:1.15.2-31.1.35",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
